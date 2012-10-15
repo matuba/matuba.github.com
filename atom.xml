@@ -4,7 +4,7 @@
   <title><![CDATA[Agile Ronin Blog]]></title>
   <link href="http://matuba.github.com/atom.xml" rel="self"/>
   <link href="http://matuba.github.com/"/>
-  <updated>2012-10-15T22:58:16+09:00</updated>
+  <updated>2012-10-15T23:03:20+09:00</updated>
   <id>http://matuba.github.com/</id>
   <author>
     <name><![CDATA[shio]]></name>
@@ -18,7 +18,7 @@
     <link href="http://matuba.github.com/blog/2012/11/15/first-post/"/>
     <updated>2012-11-15T21:00:00+09:00</updated>
     <id>http://matuba.github.com/blog/2012/11/15/first-post</id>
-    <content type="html"><![CDATA[<p>最近、blog書いてませんが、
+    <content type="html"><![CDATA[<p>最近、blog書いてませんが、<br/>
 octopressへ移行します。</p>
 ]]></content>
   </entry>
