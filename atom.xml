@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Agile Ronin Blog]]></title>
   <link href="http://matuba.github.com/atom.xml" rel="self"/>
   <link href="http://matuba.github.com/"/>
-  <updated>2012-10-15T20:56:56+09:00</updated>
+  <updated>2012-10-15T21:06:39+09:00</updated>
   <id>http://matuba.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[shio]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[テスト記事]]></title>
+    <link href="http://matuba.github.com/blog/2012/11/15/first-post/"/>
+    <updated>2012-11-15T21:00:00+09:00</updated>
+    <id>http://matuba.github.com/blog/2012/11/15/first-post</id>
+    <content type="html"><![CDATA[<p>テスト</p>
+]]></content>
+  </entry>
   
 </feed>
