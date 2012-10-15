@@ -157,20 +157,9 @@
     <li class="nav-header">Coderwall Badges</li>
   </ul>
   <div id="coderwall_badges"></div>
-  <a href="http://coderwall.com/shio1997">@shio1997</a> on coderwall
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $.getJSON("http://coderwall.com/shio1997.json?callback=?", function(data){
-        for(var i = 0; i < data.data.badges.length ; i++){
-          var badge = data.data.badges[i];
-          var badge_tag = $("<img />");
-          badge_tag.attr("src",badge.badge);
-          badge_tag.css("width","50%");
-          $("#coderwall_badges").append(badge_tag);
-        }
-      });
-    });
-  </script>
+  <a href="http://coderwall.com/shio1997">
+    <img alt="Endorse matuba on Coderwall" src="http://api.coderwall.com/shio1997/endorsecount.png" />
+  </a>
 </section>
 
 
