@@ -152,7 +152,9 @@
 <section class="well">
   <h1>CoderWall Repos</h1>
   <div id="coderwall_badges"></div>
-  <a href="http://coderwall.com/shio1997">@shio1997</a> on coderwall
+  <a href="http://coderwall.com/shio1997">
+    <img alt="Endorse matuba on Coderwall" src="http://api.coderwall.com/shio1997/endorsecount.png" />
+  </a>
   <script type="text/javascript">
     $(document).ready(function(){
       $.getJSON("http://coderwall.com/shio1997.json?callback=?", function(data){
@@ -166,11 +168,25 @@
       });
     });
   </script>
-<a href="http://coderwall.com/shio1997">
-  <img alt="Endorse matuba on Coderwall" src="http://api.coderwall.com/shio1997/endorsecount.png" />
-</a>
 </section>
 
+
+<section class="well">
+  <section id="coderwall_badges" class="nav">
+    <p class="nav-header">Coderwall Badges</p>
+    <p class="loading">Status updating&#8230;</p>
+  </section>
+  <a href="http://coderwall.com/shio1997">@shio1997</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+        coderwall.showBadges({
+            user: 'shio1997',
+            target: '#coderwall_badges'
+        });
+    });
+  </script>
+  <script src="/javascripts/asides/coderwall.js" type="text/javascript"> </script>
+</section>
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
